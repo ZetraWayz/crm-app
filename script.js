@@ -1,4 +1,4 @@
-const API_URL = "https://script.google.com/macros/s/AKfycbwu3d6n0j9Si_W8KIUhkU75qHvaoZfsCRvDNDHOerrhKhkOZSZvYdnGTRlj6-GTTaBD/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbyW4aCWl5qw9Lwcm4DD9bM_sKMPFSyVavX-iQb4M-yyL54Xtg9Dhw6RyTmUkqJ0K5PV/exec";
 
 // Load dropdowns on page load
 window.onload = async () => {

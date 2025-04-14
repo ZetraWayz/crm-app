@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRM Lite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Record a Transaction</h1>
+    <form id="transactionForm">
+      <label>Customer</label>
+      <select id="customerSelect" required></select>
+
+      <label>Supplier</label>
+      <select id="supplierSelect" required></select>
+
+      <label>Quantity Sold</label>
+      <input type="number" id="qtySold" required />
+
+      <label>Quantity Bought</label>
+      <input type="number" id="qtyBought" required />
+
+      <label>Material Type</label>
+      <select id="materialType">
+        <option value="SU">SU</option>
+        <option value="Motors">Motors</option>
+      </select>
+
+      <label>Selling Price</label>
+      <input type="number" id="sellingPrice" required />
+
+      <label>Buying Price</label>
+      <input type="number" id="buyingPrice" required />
+
+      <label>Date of Transaction</label>
+      <input type="date" id="transactionDate" required />
+
+      <label>Email</label>
+      <input type="email" id="email" required />
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
